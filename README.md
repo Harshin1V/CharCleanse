@@ -1,67 +1,67 @@
-# Duplicate Character Remover
+<p align="center">
+  <a href="https://nextjs.org">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_dark_background.png">
+      <img src="https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_light_background.png" height="128">
+    </picture>
+    <h1 align="center">Next.js</h1>
+  </a>
+</p>
 
-This project is a web application that allows users to remove duplicate characters from a given string. It provides a user-friendly interface to input a string, visualize the characters as cards, and interactively remove duplicates.
-
-![Homepage](https://res.cloudinary.com/dwwtffefs/image/upload/v1685729441/duplicate-char-remover/Screenshot_2023-06-02_at_11.27.29_PM_tkclfb.png)
-
-![All Cards](https://res.cloudinary.com/dwwtffefs/image/upload/v1685729501/duplicate-char-remover/Screenshot_2023-06-02_at_11.38.50_PM_d4gf16.png)
-
-![Success](https://res.cloudinary.com/dwwtffefs/image/upload/v1685729504/duplicate-char-remover/Screenshot_2023-06-02_at_11.38.59_PM_pjgctx.png)
-
-## Prerequisites
-
-Before running the project, make sure you have the following installed:
-
-- Node.js (v14 or above)
-- npm (Node Package Manager)
+<p align="center">
+  <a aria-label="Vercel logo" href="https://vercel.com">
+    <img src="https://img.shields.io/badge/MADE%20BY%20Vercel-000000.svg?style=for-the-badge&logo=Vercel&labelColor=000">
+  </a>
+  <a aria-label="NPM version" href="https://www.npmjs.com/package/next">
+    <img alt="" src="https://img.shields.io/npm/v/next.svg?style=for-the-badge&labelColor=000000">
+  </a>
+  <a aria-label="License" href="https://github.com/vercel/next.js/blob/canary/license.md">
+    <img alt="" src="https://img.shields.io/npm/l/next.svg?style=for-the-badge&labelColor=000000">
+  </a>
+  <a aria-label="Join the community on GitHub" href="https://github.com/vercel/next.js/discussions">
+    <img alt="" src="https://img.shields.io/badge/Join%20the%20community-blueviolet.svg?style=for-the-badge&logo=Next.js&labelColor=000000&logoWidth=20">
+  </a>
+</p>
 
 ## Getting Started
 
-Follow the steps below to run the project locally:
+Visit <a aria-label="next.js learn" href="https://nextjs.org/learn">https://nextjs.org/learn</a> to get started with Next.js.
 
-1. Clone the repository to your local machine:
+## Documentation
 
-   ```
-   git clone https://github.com/thisisyashgarg/duplicate-char-remover.git
-   ```
+Visit [https://nextjs.org/docs](https://nextjs.org/docs) to view the full documentation.
 
-2. Navigate to the project directory:
+## Who is using Next.js?
 
-   ```
-   cd duplicate-character-remover
-   ```
+Next.js is used by the world's leading companies. Check out the [Next.js Showcase](https://nextjs.org/showcase) to learn more.
 
-3. Install the dependencies using npm:
+## Community
 
-   ```
-   npm install
-   ```
+The Next.js community can be found on [GitHub Discussions](https://github.com/vercel/next.js/discussions), where you can ask questions, voice ideas, and share your projects.
 
-4. Start the development server:
+To chat with other community members you can join the [Next.js Discord](https://nextjs.org/discord).
 
-   ```
-   npm run dev
-   ```
+Our [Code of Conduct](https://github.com/vercel/next.js/blob/canary/CODE_OF_CONDUCT.md) applies to all Next.js community channels.
 
-5. Open your browser and visit `http://localhost:1234` to access the application.
+## Contributing
 
-## Usage
+Please see our [contributing.md](/contributing.md).
 
-### Homepage
+### Good First Issues
 
-- On the homepage, you will see an input box where you can enter a string.
-- Make sure to enter a non-empty value in the input box.
-- Click on the "Submit" button to proceed.
+We have a list of [good first issues](https://github.com/vercel/next.js/labels/good%20first%20issue) that contain bugs that have a relatively limited scope. This is a great place to get started, gain experience, and get familiar with our contribution process.
 
-### All Cards Page
+## Authors
 
-- After submitting the string on the homepage, you will be redirected to the AllCards page.
-- The AllCards page displays the string and its characters as cards.
-- Your goal is to remove all duplicate characters from the deck of cards.
-- You can remove a card by clicking on it.
-- Once all duplicates are removed, a success message will be displayed, and confetti will appear.
-- You can click the "← Homepage" button to go back to the homepage and enter a new string.
+- Tim Neutkens ([@timneutkens](https://twitter.com/timneutkens))
+- Naoyuki Kanezawa ([@nkzawa](https://twitter.com/nkzawa))
+- Guillermo Rauch ([@rauchg](https://twitter.com/rauchg))
+- Arunoda Susiripala ([@arunoda](https://twitter.com/arunoda))
+- Tony Kovanen ([@tonykovanen](https://twitter.com/tonykovanen))
+- Dan Zajdband ([@impronunciable](https://twitter.com/impronunciable))
 
-## To Do's
+## Security
 
-- Unit Test Cases
+If you believe you have found a security vulnerability in Next.js, we encourage you to responsibly disclose this and not open a public issue. We will investigate all legitimate reports. Email `security@vercel.com` to disclose any security vulnerabilities.
+
+https://vercel.com/security
