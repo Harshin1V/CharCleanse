@@ -8,7 +8,7 @@ export type CharacterDataContextType = {
   setArrayOfChar: React.Dispatch<React.SetStateAction<string[]>>;
 };
 
-// Context fro storing the original string and the array of characters
+// Context for storing the original string and the array of characters
 export const CharacterDataContext = createContext<CharacterDataContextType>({
   originalString: "",
   setOriginalString: () => {},
