@@ -1,5 +1,7 @@
 # CharCleanse: Duplicate Character Remover
 
+Live:https://char-cleanse.vercel.app/
+
 This project is a web application that allows users to remove duplicate characters from a given string. It provides a user-friendly interface to input a string, visualize the characters as cards, and interactively remove duplicates.
 
 ### Homepage
